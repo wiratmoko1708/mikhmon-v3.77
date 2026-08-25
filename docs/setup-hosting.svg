@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="200" viewBox="0 0 860 200">
+  <defs>
+    <linearGradient id="hdr3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7e57c2"/>
+      <stop offset="100%" stop-color="#4527a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="200" rx="14" fill="#faf8ff"/>
+  <rect width="860" height="52" rx="14" fill="url(#hdr3)"/>
+  <rect y="38" width="860" height="14" fill="url(#hdr3)"/>
+  <!-- cloud icon -->
+  <g transform="translate(18,12)" fill="#ffffff">
+    <path d="M6 16 a6 6 0 0 1 1-11.9 A8 8 0 0 1 22 5 a5.5 5.5 0 0 1 .5 11 Z"/>
+  </g>
+  <text x="60" y="35" font-family="Arial" font-size="22" font-weight="bold" fill="#ffffff">Setup di Shared Hosting (cPanel)</text>
+
+  <g font-family="Consolas, Menlo, monospace" font-size="12.5">
+    <g transform="translate(24,72)">
+      <rect width="250" height="100" rx="10" fill="#ffffff" stroke="#d1c4e9"/>
+      <circle cx="26" cy="26" r="14" fill="#4527a0"/><text x="26" y="31" text-anchor="middle" fill="#fff" font-weight="bold">1</text>
+      <text x="50" y="30" fill="#311b92" font-weight="bold">Upload</text>
+      <text x="14" y="56" fill="#37474f">File Manager / FTP ke</text>
+      <text x="14" y="76" fill="#673ab7">public_html/mikhmon</text>
+    </g>
+    <g transform="translate(296,72)">
+      <rect width="270" height="100" rx="10" fill="#ffffff" stroke="#d1c4e9"/>
+      <circle cx="26" cy="26" r="14" fill="#4527a0"/><text x="26" y="31" text-anchor="middle" fill="#fff" font-weight="bold">2</text>
+      <text x="50" y="30" fill="#311b92" font-weight="bold">PHP Version</text>
+      <text x="14" y="58" fill="#37474f">Select PHP Version &#8594; 8.1+</text>
+      <text x="14" y="78" fill="#7e57c2">aktifkan ext: sockets</text>
+    </g>
+    <g transform="translate(588,72)">
+      <rect width="248" height="100" rx="10" fill="#ffffff" stroke="#d1c4e9"/>
+      <circle cx="26" cy="26" r="14" fill="#4527a0"/><text x="26" y="31" text-anchor="middle" fill="#fff" font-weight="bold">3</text>
+      <text x="50" y="30" fill="#311b92" font-weight="bold">Izin Tulis</text>
+      <text x="14" y="58" fill="#37474f">chmod 664 include/*.php</text>
+      <text x="14" y="78" fill="#7e57c2">(config &amp; users)</text>
+    </g>
+  </g>
+</svg>

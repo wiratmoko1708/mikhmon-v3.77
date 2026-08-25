@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a2980"/>
+      <stop offset="50%" stop-color="#26d0ce"/>
+      <stop offset="100%" stop-color="#1a2980"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f7971e"/>
+      <stop offset="100%" stop-color="#ffd200"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="280" rx="16" fill="url(#bg)"/>
+  <circle cx="120" cy="60" r="90" fill="#ffffff" opacity="0.06"/>
+  <circle cx="900" cy="240" r="110" fill="#ffffff" opacity="0.06"/>
+  <!-- wifi icon -->
+  <g transform="translate(80,95)" fill="none" stroke="#ffd200" stroke-width="10" stroke-linecap="round">
+    <path d="M0 45 A70 70 0 0 1 100 45"/>
+    <path d="M20 65 A42 42 0 0 1 80 65"/>
+    <circle cx="50" cy="88" r="7" fill="#ffd200" stroke="none"/>
+  </g>
+  <text x="220" y="115" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">MIKHMON</text>
+  <rect x="222" y="135" width="230" height="44" rx="22" fill="url(#accent)"/>
+  <text x="337" y="165" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="24" font-weight="bold" fill="#1a2980">v3.77</text>
+  <text x="222" y="215" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#e8f4f8">Hotspot Monitor untuk MikroTik</text>
+  <text x="222" y="245" font-family="Consolas, Menlo, monospace" font-size="18" fill="#b3e5fc">PHP 8.4 &#8226; Failover ISP &#8226; Multi Admin User</text>
+</svg>

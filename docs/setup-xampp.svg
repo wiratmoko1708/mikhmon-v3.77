@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="200" viewBox="0 0 860 200">
+  <defs>
+    <linearGradient id="hdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff7043"/>
+      <stop offset="100%" stop-color="#f4511e"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="200" rx="14" fill="#fff8f5"/>
+  <rect width="860" height="52" rx="14" fill="url(#hdr)"/>
+  <rect y="38" width="860" height="14" fill="url(#hdr)"/>
+  <!-- XAMPP logo hint -->
+  <g transform="translate(20,10)">
+    <path d="M0 0 L16 16 M16 0 L0 16" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="60" y="35" font-family="Arial" font-size="22" font-weight="bold" fill="#ffffff">Setup di XAMPP (Windows / macOS / Linux)</text>
+
+  <!-- step chips -->
+  <g font-family="Consolas, Menlo, monospace" font-size="13">
+    <g transform="translate(24,72)">
+      <rect width="250" height="100" rx="10" fill="#ffffff" stroke="#ffccbc"/>
+      <circle cx="26" cy="26" r="14" fill="#f4511e"/><text x="26" y="31" text-anchor="middle" fill="#fff" font-weight="bold">1</text>
+      <text x="50" y="30" fill="#bf360c" font-weight="bold">Download &amp; Install</text>
+      <text x="14" y="56" fill="#5d4037">XAMPP PHP &#8805; 8.1</text>
+      <text x="14" y="76" fill="#5d4037">(disarankan 8.4)</text>
+    </g>
+    <g transform="translate(296,72)">
+      <rect width="270" height="100" rx="10" fill="#ffffff" stroke="#ffccbc"/>
+      <circle cx="26" cy="26" r="14" fill="#f4511e"/><text x="26" y="31" text-anchor="middle" fill="#fff" font-weight="bold">2</text>
+      <text x="50" y="30" fill="#bf360c" font-weight="bold">Copy Project</text>
+      <text x="14" y="58" fill="#5d4037">extract ke:</text>
+      <text x="14" y="80" fill="#d84315">C:\xampp\htdocs\mikhmon</text>
+    </g>
+    <g transform="translate(588,72)">
+      <rect width="248" height="100" rx="10" fill="#ffffff" stroke="#ffccbc"/>
+      <circle cx="26" cy="26" r="14" fill="#f4511e"/><text x="26" y="31" text-anchor="middle" fill="#fff" font-weight="bold">3</text>
+      <text x="50" y="30" fill="#bf360c" font-weight="bold">Start Apache</text>
+      <text x="14" y="58" fill="#5d4037">buka XAMPP Control,</text>
+      <text x="14" y="78" fill="#d84315">http://localhost/mikhmon</text>
+    </g>
+  </g>
+</svg>
