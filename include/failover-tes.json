@@ -1,0 +1,19 @@
+{
+    "ports": [
+        {
+            "name": "ISPA",
+            "interface": "ether1",
+            "is_active": 1
+        },
+        {
+            "name": "ISPB",
+            "interface": "ether2",
+            "is_active": 1
+        }
+    ],
+    "schedule": {
+        "interval": 1,
+        "enabled": 0,
+        "last_switch": "2026-08-26 08:14:02"
+    }
+}
